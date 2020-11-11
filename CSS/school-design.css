@@ -6,5 +6,43 @@ header h1 { text-align:left;
             padding:2.5%;
             border-radius:5%;
             border-style: groove;
-            border-color: orangered;
+            border-color: orangered;}
+
+body {background-color: rgb(51, 1, 51);
+      font-family: sans-serif;
+}
+
+ ol  { background-color:rgb(245, 245, 142);
+       padding: 5px 10px;
+       border-radius: 5%;
+}
+
+
+ol li {display:inline;
+       padding:10px;
+}
+
+.selected {background-color: rgb(247, 162, 4);
+           padding:5px 10px;
+           border-radius: 5%;
+}
+
+ol li a:link, ul li a:visited, ul li a:hover {
+    border-bottom: none;
+    font-weight: bold;
+    color:rgb(2, 2, 54);
+    }
+
+article { background-color: rgb(116, 245, 232);
+          padding: 10px;
+          border-radius: 5%;
+}
+
+article h1, article h3 { font-weight: bold;
+                        color:rgb(1, 1, 63);
+}
+ article p { font-weight: normal;}
+
+ article p.intro { color: rgb(231, 42, 8);
+                   font-weight:bold;
 }
