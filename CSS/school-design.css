@@ -6,7 +6,9 @@ header h1 { text-align:left;
             padding:2.5%;
             border-radius:5%;
             border-style: groove;
-            border-color: orangered;}
+            border-color: orangered;
+            
+      }
 
 body {background-color: rgb(51, 1, 51);
       font-family: sans-serif;
@@ -35,7 +37,7 @@ ol li a:link, ul li a:visited, ul li a:hover {
 
 article { background-color: rgb(116, 245, 232);
           padding: 10px;
-          border-radius: 5%;
+          border-radius: 5px;
 }
 
 article h1, article h3 { font-weight: bold;
@@ -45,4 +47,25 @@ article h1, article h3 { font-weight: bold;
 
  article p.intro { color: rgb(231, 42, 8);
                    font-weight:bold;
+                   font-family: Comic Sans, sans serif;
 }
+
+article article.example1 { background-color: rgb(252, 215, 52);
+                          border-radius: 5px;
+                          border: dashed rgb(4, 4, 168);
+                          font-family:Andale Mono, sans serif;
+}
+
+article article.example2 { background-color: red;
+                           border-radius:5px;
+                           border:dashed rgb(50, 0, 59);
+                           font-family: Andale Mono, sans serif;
+
+}
+
+article h1 {font-family: Impact, sans-serif;
+            font-size: 300%;
+            letter-spacing: 3px;
+}
+
+h3 {font-family: Trebuchet MS, sans serif;}
