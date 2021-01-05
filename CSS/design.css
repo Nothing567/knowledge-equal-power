@@ -33,3 +33,4 @@ article { background-color:rgb(129, 235, 199);
 body { background-color:black;
        font-family:sans-serif;
 }
+article p {font-weight:bold;}
