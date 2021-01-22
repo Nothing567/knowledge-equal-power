@@ -1,10 +1,9 @@
 ol li { display: inline;
-        padding:0.5%;
+        padding:2.5%;
         font-weight:bold;
         color:rgb(0, 0, 58);
 }
-ol li a.selected {background-color: rgb(85, 145, 201);
-                  padding: 19px;
+ol li a.selected {padding: 19px;
                   border-radius: 5%;
                   
                   
@@ -15,7 +14,7 @@ ol li a:link, ol li a:visited {border-bottom:none;
                               
 }
 
-nav{ background-color: rgb(163, 214, 248);
+nav{ background-color:white;
      padding:1.5px;
      margin: 10px 0px;
     }
