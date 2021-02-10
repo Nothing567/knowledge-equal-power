@@ -25,11 +25,11 @@ header{ border-bottom: solid gray;
         border-radius:2%;
 }
 
-article { background-color:rgb(129, 235, 199);
+article { background-color:rgb(158, 245, 236);
           padding:2.5%;
 }
 
 body { background-color:black;
        font-family:sans-serif;
 }
-article p {font-weight:bold;}
+article p {font-weight:bold}
