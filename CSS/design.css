@@ -14,8 +14,8 @@ ol li a:link, ol li a:visited {border-bottom:none;
                               
 }
 
-nav{ background-color:white;
-     padding:1.5px;
+nav ol{ background-color:white;
+     padding:5px;
      margin: 10px 0px;
     }
 
@@ -33,3 +33,6 @@ body { background-color:black;
        font-family:sans-serif;
 }
 article p {font-weight:bold}
+
+article img.intro { margin:0px;}
+
